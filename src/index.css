@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-brand-neon: #D7FF51;
+  --color-brand-cyan: #ec4899;
+  --color-brand-coral: #f97316;
+  --color-bg-dark: #0A0A0B;
+  --color-bg-card: #111114;
+
+  /* Redefine tailwind colors for fully integrated look */
+  --color-slate-950: #0A0A0B;
+  --color-gray-950: #050506;
+  --color-gray-900: #111114;
+  --color-gray-850: rgb(24, 24, 27);
+  --color-gray-800: #1A1A1D;
+  --color-gray-750: rgb(39, 39, 42);
+  --color-gray-700: #2E2E35;
+  --color-gray-600: #4B4B54;
+  --color-gray-550: #6B6B76;
+  --color-gray-500: #818190;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #0A0A0B;
+  color: #f1f5f9;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #12141c;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2e45;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3f466b;
+}
+
+/* Custom animations */
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(204, 255, 0, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(204, 255, 0, 0.6);
+  }
+}
+
+.glow-active {
+  animation: pulseGlow 2s infinite ease-in-out;
+}

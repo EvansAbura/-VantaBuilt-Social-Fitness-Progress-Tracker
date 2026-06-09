@@ -1,0 +1,6 @@
+{
+  "name": "Vantabuilt",
+  "description": "A social fitness tracking app for logging workouts, tracking cardio, monitoring progress, and staying active with friends.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
