@@ -1,20 +1,7 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+VantaBuilt is a modern social fitness tracking application designed to help users and their friends build consistency, discipline, and measurable progress in their fitness journey. The platform brings together gym training and cardio tracking into one seamless system, making it easy to log workouts, monitor performance, and stay accountable over time.
 
-# Run and deploy your AI Studio app
+Users can record strength training sessions including sets, reps, and weights, as well as cardio activities such as running, cycling, and walking with distance, pace, and duration tracking. All data is visualized through clean progress dashboards that highlight improvements in strength, endurance, and overall fitness trends.
 
-This contains everything you need to run your app locally.
+Beyond individual tracking, VantaBuilt introduces a social layer where users can connect with friends, share workout activity, participate in challenges, and engage in friendly competition through leaderboards and streaks. This creates a motivating environment focused on consistency and long-term growth.
 
-View your app in AI Studio: https://ai.studio/apps/15a25dde-de81-4f38-86c7-af8d01863ecb
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+VantaBuilt is built with simplicity, speed, and usability in mind, ensuring users can log workouts quickly and stay focused on performance rather than complexity. The goal is to transform fitness into a shared, data-driven experience that keeps users accountable and motivated.
